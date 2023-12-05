@@ -187,3 +187,12 @@ JRE.
 
 Классы можно загружать вручную через Class.forName("className"). Если класса не оказалось в classpath, будет брошено 
 исключение: ClassNotFoundException.
+
+# Groovy ClasLoader
+
+Groovy добавляет свои ClasLoader, которые наследуются от App ClassLoader и немного меняет поведение. То есть, если в 
+случае обычных классов в Java, мы сначала ищем в Bootstrap ClassLoader, потом у Platform ClassLoader, потом у
+App ClassLoader, то в Groovy мы сначала ищем классы у Groovy ClassLoader, а если не находим, то идём по стандартной 
+схеме, как в Java, начиная с самого parent.
+
+![Blank diagram5.png](src%2Fmain%2Fresources%2Fphoto%2FBlank%20diagram5.png)
