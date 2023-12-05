@@ -4,14 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1b31b64f-5838-43bc-a332-7a938b960744" name="Changes" comment="ClassPath. ClassLoader">
-      <change afterPath="$PROJECT_DIR$/src/main/groovy/com/jkrotal/Lom.groovy" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/groovy/com/jkrotal/MainClass.groovy" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/photo/Blank diagram5.png" afterDir="false" />
+    <list default="true" id="1b31b64f-5838-43bc-a332-7a938b960744" name="Changes" comment="Groovy ClasLoader">
+      <change afterPath="$PROJECT_DIR$/src/main/groovy/com/jkrotal/operators/OperatorsRunner.groovy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/groovy/com/jkrotal/operators/VariablesRunner.groovy" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/groovy/Main.groovy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/photo/Blank diagram4.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/photo/Blank diagram4.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,20 +90,7 @@
       <recent name="C:\Users\kohdy\IdeaProjects\groovy-gradle-starter\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MainClass (1)">
-    <configuration name="MainClass (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.jkrotal.MainClass" />
-      <module name="groovy-gradle-starter" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.jkrotal.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Groovy.OperatorsRunner">
     <configuration name="groovy-gradle-starter [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -149,14 +133,25 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="OperatorsRunner" type="GroovyScriptRunConfiguration" factoryName="Groovy" temporary="true">
+      <module name="groovy-gradle-starter.main" />
+      <setting name="path" value="file://$PROJECT_DIR$/src/main/groovy/com/jkrotal/operators/OperatorsRunner.groovy" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workDir" value="file://$PROJECT_DIR$/src/main/groovy/com/jkrotal/operators" />
+      <setting name="debug" value="false" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.MainClass (1)" />
       <item itemvalue="Gradle.groovy-gradle-starter [build]" />
       <item itemvalue="Gradle.groovy-gradle-starter [clean]" />
+      <item itemvalue="Groovy.OperatorsRunner" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MainClass (1)" />
+        <item itemvalue="Groovy.OperatorsRunner" />
         <item itemvalue="Gradle.groovy-gradle-starter [clean]" />
         <item itemvalue="Gradle.groovy-gradle-starter [build]" />
       </list>
@@ -173,7 +168,7 @@
       <workItem from="1702732692765" duration="528000" />
       <workItem from="1702733231395" duration="6986000" />
       <workItem from="1702803455611" duration="9857000" />
-      <workItem from="1702839881108" duration="14214000" />
+      <workItem from="1702839881108" duration="18643000" />
     </task>
     <task id="LOCAL-00001" summary="groovyc&amp;groovy">
       <created>1701684195744</created>
@@ -210,7 +205,14 @@
       <option name="project" value="LOCAL" />
       <updated>1701796235662</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Groovy ClasLoader">
+      <created>1701797430867</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1701797430867</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -233,6 +235,7 @@
     <MESSAGE value="groovyc&amp;groovy" />
     <MESSAGE value="Groovy compiler" />
     <MESSAGE value="ClassPath. ClassLoader" />
-    <option name="LAST_COMMIT_MESSAGE" value="ClassPath. ClassLoader" />
+    <MESSAGE value="Groovy ClasLoader" />
+    <option name="LAST_COMMIT_MESSAGE" value="Groovy ClasLoader" />
   </component>
 </project>
