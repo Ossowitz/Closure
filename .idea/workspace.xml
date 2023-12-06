@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1b31b64f-5838-43bc-a332-7a938b960744" name="Changes" comment="Groovy ClasLoader">
-      <change afterPath="$PROJECT_DIR$/src/main/groovy/com/jkrotal/operators/OperatorsRunner.groovy" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/groovy/com/jkrotal/operators/VariablesRunner.groovy" afterDir="false" />
+    <list default="true" id="1b31b64f-5838-43bc-a332-7a938b960744" name="Changes" comment="Variables">
+      <change afterPath="$PROJECT_DIR$/src/main/groovy/com/jkrotal/gstring/GStringRunner.groovy" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/groovy/Main.groovy" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,7 +88,7 @@
       <recent name="C:\Users\kohdy\IdeaProjects\groovy-gradle-starter\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Groovy.OperatorsRunner">
+  <component name="RunManager" selected="Groovy.GStringRunner">
     <configuration name="groovy-gradle-starter [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -133,6 +131,17 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="GStringRunner" type="GroovyScriptRunConfiguration" factoryName="Groovy" temporary="true">
+      <module name="groovy-gradle-starter.main" />
+      <setting name="path" value="file://$PROJECT_DIR$/src/main/groovy/com/jkrotal/gstring/GStringRunner.groovy" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workDir" value="file://$PROJECT_DIR$/src/main/groovy/com/jkrotal/gstring" />
+      <setting name="debug" value="false" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="OperatorsRunner" type="GroovyScriptRunConfiguration" factoryName="Groovy" temporary="true">
       <module name="groovy-gradle-starter.main" />
       <setting name="path" value="file://$PROJECT_DIR$/src/main/groovy/com/jkrotal/operators/OperatorsRunner.groovy" />
@@ -147,10 +156,12 @@
     <list>
       <item itemvalue="Gradle.groovy-gradle-starter [build]" />
       <item itemvalue="Gradle.groovy-gradle-starter [clean]" />
+      <item itemvalue="Groovy.GStringRunner" />
       <item itemvalue="Groovy.OperatorsRunner" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Groovy.GStringRunner" />
         <item itemvalue="Groovy.OperatorsRunner" />
         <item itemvalue="Gradle.groovy-gradle-starter [clean]" />
         <item itemvalue="Gradle.groovy-gradle-starter [build]" />
@@ -168,7 +179,7 @@
       <workItem from="1702732692765" duration="528000" />
       <workItem from="1702733231395" duration="6986000" />
       <workItem from="1702803455611" duration="9857000" />
-      <workItem from="1702839881108" duration="18643000" />
+      <workItem from="1702839881108" duration="23746000" />
     </task>
     <task id="LOCAL-00001" summary="groovyc&amp;groovy">
       <created>1701684195744</created>
@@ -212,7 +223,14 @@
       <option name="project" value="LOCAL" />
       <updated>1701797430867</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Variables">
+      <created>1701803062343</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1701803062343</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -236,6 +254,7 @@
     <MESSAGE value="Groovy compiler" />
     <MESSAGE value="ClassPath. ClassLoader" />
     <MESSAGE value="Groovy ClasLoader" />
-    <option name="LAST_COMMIT_MESSAGE" value="Groovy ClasLoader" />
+    <MESSAGE value="Variables" />
+    <option name="LAST_COMMIT_MESSAGE" value="Variables" />
   </component>
 </project>
