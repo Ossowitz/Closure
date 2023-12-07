@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1b31b64f-5838-43bc-a332-7a938b960744" name="Changes" comment="Variables">
-      <change afterPath="$PROJECT_DIR$/src/main/groovy/com/jkrotal/gstring/GStringRunner.groovy" afterDir="false" />
+    <list default="true" id="1b31b64f-5838-43bc-a332-7a938b960744" name="Changes" comment="String and GString">
+      <change afterPath="$PROJECT_DIR$/src/main/groovy/com/jkrotal/closure/ClosureRunner.groovy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/groovy/com/jkrotal/regex/RegexRunner.groovy" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -88,27 +89,32 @@
       <recent name="C:\Users\kohdy\IdeaProjects\groovy-gradle-starter\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Groovy.GStringRunner">
-    <configuration name="groovy-gradle-starter [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="build" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
+  <component name="RunManager" selected="Application.ClosureRunner">
+    <configuration name="ClosureRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jkrotal.closure.ClosureRunner" />
+      <module name="groovy-gradle-starter.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jkrotal.closure.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RegexRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jkrotal.regex.RegexRunner" />
+      <module name="groovy-gradle-starter.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jkrotal.regex.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="groovy-gradle-starter [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
@@ -154,17 +160,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Gradle.groovy-gradle-starter [build]" />
+      <item itemvalue="Application.ClosureRunner" />
+      <item itemvalue="Application.RegexRunner" />
       <item itemvalue="Gradle.groovy-gradle-starter [clean]" />
       <item itemvalue="Groovy.GStringRunner" />
       <item itemvalue="Groovy.OperatorsRunner" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ClosureRunner" />
+        <item itemvalue="Application.RegexRunner" />
         <item itemvalue="Groovy.GStringRunner" />
         <item itemvalue="Groovy.OperatorsRunner" />
         <item itemvalue="Gradle.groovy-gradle-starter [clean]" />
-        <item itemvalue="Gradle.groovy-gradle-starter [build]" />
       </list>
     </recent_temporary>
   </component>
@@ -179,7 +187,8 @@
       <workItem from="1702732692765" duration="528000" />
       <workItem from="1702733231395" duration="6986000" />
       <workItem from="1702803455611" duration="9857000" />
-      <workItem from="1702839881108" duration="23746000" />
+      <workItem from="1702839881108" duration="33944000" />
+      <workItem from="1703433414168" duration="79000" />
     </task>
     <task id="LOCAL-00001" summary="groovyc&amp;groovy">
       <created>1701684195744</created>
@@ -230,7 +239,14 @@
       <option name="project" value="LOCAL" />
       <updated>1701803062343</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="String and GString">
+      <created>1701894705130</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1701894705130</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -255,6 +271,7 @@
     <MESSAGE value="ClassPath. ClassLoader" />
     <MESSAGE value="Groovy ClasLoader" />
     <MESSAGE value="Variables" />
-    <option name="LAST_COMMIT_MESSAGE" value="Variables" />
+    <MESSAGE value="String and GString" />
+    <option name="LAST_COMMIT_MESSAGE" value="String and GString" />
   </component>
 </project>
