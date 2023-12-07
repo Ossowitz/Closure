@@ -21,7 +21,6 @@ String nameValue = 'Hello $value'
 GString value5 = /Hello world $ilya/
 String value6 = $/Hello world/$
 
-
 String query = """
 SELECT * 
 FROM table 
