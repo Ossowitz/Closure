@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1b31b64f-5838-43bc-a332-7a938b960744" name="Changes" comment="String and GString">
-      <change afterPath="$PROJECT_DIR$/src/main/groovy/com/jkrotal/closure/ClosureRunner.groovy" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/groovy/com/jkrotal/regex/RegexRunner.groovy" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="1b31b64f-5838-43bc-a332-7a938b960744" name="Changes" comment="Regular expressions">
+      <change beforePath="$PROJECT_DIR$/src/main/groovy/com/jkrotal/regex/RegexRunner.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/groovy/com/jkrotal/regex/RegexRunner.groovy" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +48,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="common_1" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RESET_MODE" value="SOFT" />
   </component>
@@ -189,6 +192,7 @@
       <workItem from="1702803455611" duration="9857000" />
       <workItem from="1702839881108" duration="33944000" />
       <workItem from="1703433414168" duration="79000" />
+      <workItem from="1703436951037" duration="330000" />
     </task>
     <task id="LOCAL-00001" summary="groovyc&amp;groovy">
       <created>1701684195744</created>
@@ -246,7 +250,14 @@
       <option name="project" value="LOCAL" />
       <updated>1701894705130</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Regular expressions">
+      <created>1701968320621</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1701968320621</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -257,7 +268,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="common_2" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -272,6 +295,7 @@
     <MESSAGE value="Groovy ClasLoader" />
     <MESSAGE value="Variables" />
     <MESSAGE value="String and GString" />
-    <option name="LAST_COMMIT_MESSAGE" value="String and GString" />
+    <MESSAGE value="Regular expressions" />
+    <option name="LAST_COMMIT_MESSAGE" value="Regular expressions" />
   </component>
 </project>
